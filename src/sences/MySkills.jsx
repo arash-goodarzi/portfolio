@@ -23,9 +23,14 @@ const MySkills = () => {
             MY <span className="text-red">SKILLS</span>
           </p>
           <LineGradient width="w-1/3" />
-          <p className="mt-10 mb-7">
-            Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-            fames odio in at.
+          <p className="mt-10 mb-7 text-justify">
+            I started my educational journey with the study of Marketing. After
+            a while, I realized that the world is moving toward e-commerce and
+            e-marketing. In other words, they play a significant roles in the
+            new world. Hence, I wrote my Master's thesis based on this topic. In
+            accordance with this idea, I created my first website and analyzed
+            the customer behavior on that website. Then, I focused on
+            programming and creating websites or web-based applications.
           </p>
         </motion.div>
 
@@ -70,10 +75,9 @@ const MySkills = () => {
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
-          <p className="mt-5">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea. Est
-            morbi porttitor scelerisque fermentum, sagittis non egestas. Amet
-            odio sit sagittis,
+          <p className="mt-5 text-justify">
+            I have 8 years experience of working as a full stack developer with
+            different programming languages, libraries and applications.
           </p>
         </motion.div>
 
@@ -93,16 +97,16 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">02</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Innovative
+                Client satisfaction
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
-          <p className="mt-5">
-            Urna, eget pulvinar dolor cursus volutpat dictum odio. Nec ultricies
-            amet in in neque nibh tortor. Libero sed pretium justo nulla blandit
-            nulla amet habitant iaculis. Iaculis in congue vitae sollicitudin
-            faucibus a
+          <p className="mt-5 text-justify">
+            We had different clients (company customers or our team leader that
+            are reflected in jira) . We should understand their needs and then
+            with our product (with our codes) we should satisfy their needs. And
+            during of this process always I look at the goal and their needs.
           </p>
         </motion.div>
         {/* IMAGINATIVE */}
@@ -121,16 +125,15 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">03</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Imaginative
+                Teamwork
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
-          <p className="mt-5">
-            Accumsan eu fringilla nisi, eget. Vitae, eget ut id proin arcu in
-            curabitur. Lectus libero, egestas enim aliquam quis felis amet.
-            Sagittis, amet netus fringilla netus lobortis odio sed platea.
-            Bibendum.
+          <p className="mt-5 text-justify">
+            I think Working in a team encourages personal growth, increases job
+            satisfaction, and reduces stress and as member of group I try to be
+            make positive effect in group to better outcomes.
           </p>
         </motion.div>
       </div>

@@ -60,10 +60,9 @@ const Projects = () => {
             <LineGradient width="w-2/3" />
           </div>
         </div>
-        <p className="mt-10 mb-10">
-          Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-          fames odio in at. At magna ornare dictum lectus. Purus massa morbi
-          purus nec eget eleifend ut elit.
+        <p className="mt-10 mb-10 text-justify">
+          I have a variety of skills that you can see here and you can check out
+          my codes in github.
         </p>
       </motion.div>
 
@@ -79,7 +78,7 @@ const Projects = () => {
           {/* ROW 1 */}
           <div
             className="flex justify-center text-center items-center p-10 bg-red
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+              max-w-[470px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
             BEAUTIFUL USER INTERFACES
           </div>
@@ -93,10 +92,10 @@ const Projects = () => {
 
           {/* ROW 3 */}
           <Project title="Project 6" />
-          <Project title="Project 7" />
+          {/* <Project title="Project 7" /> */}
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+              max-w-[470px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
             SMOOTH USER EXPERIENCE
           </div>
