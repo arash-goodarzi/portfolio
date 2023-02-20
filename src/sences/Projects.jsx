@@ -15,7 +15,7 @@ const projectVariant = {
   visible: { opacity: 1, scale: 1 },
 };
 
-const Project = ({ title }) => {
+const Project = ({ title,deatil }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
   const projectTitle = title.split(" ").join("-").toLowerCase();
@@ -25,8 +25,7 @@ const Project = ({ title }) => {
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7">
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla
-          porttitor accumsan tincidunt.
+          {deatil}
         </p>
       </div>
       <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
@@ -82,16 +81,26 @@ const Projects = () => {
           >
             BEAUTIFUL USER INTERFACES
           </div>
-          <Project title="Project 1" />
-          <Project title="Project 2" />
+          <Project title="Project 1" deatil="Ecommerce website
+          Frontend:react,redux,Formik,materialUI
+          Backend:strapi
+          Payment:stripe" />
+          <Project title="Project 2" deatil="Dashboard with react" />
 
           {/* ROW 2 */}
-          <Project title="Project 3" />
-          <Project title="Project 4" />
-          <Project title="Project 5" />
+          <Project title="Project 3" deatil="Membership website
+          Frontend:react
+          Backend: java spring
+          Database: mysql" />
+          <Project title="Project 4" deatil="
+          DataScience Project
+          Frontend: React
+          Backend: Flask-Python " />
+          <Project title="Project 5" deatil="Portfolio website" />
 
           {/* ROW 3 */}
-          <Project title="Project 6" />
+          <Project title="Project 6" deatil="Game website
+           https://react-game-wordle.onrender.com" />
           {/* <Project title="Project 7" /> */}
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
