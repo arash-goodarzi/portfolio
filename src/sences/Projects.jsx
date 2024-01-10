@@ -30,7 +30,7 @@ const Project = ({ title,deatil,nameOfProject }) => {
         </p>
       </div>
       <div className="flex justify-center items-center w-64 h-64">
-        <img className="w-64 h-64" src={`assets/${projectTitle}.jpeg`} alt={projectTitle} />
+        <img className="object-cover" src={`assets/${projectTitle}.jpeg`} alt={projectTitle} />
       </div>
       
       {/* <div className="h-36">
