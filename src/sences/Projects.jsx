@@ -29,8 +29,8 @@ const Project = ({ title,deatil,nameOfProject }) => {
           {deatil}
         </p>
       </div>
-      <div className="flex justify-center items-center w-44 h-44">
-        <img src={`assets/${projectTitle}.jpeg`} alt={projectTitle} />
+      <div className="flex justify-center items-center w-64 h-64">
+        <img className="w-64 h-64" src={`assets/${projectTitle}.jpeg`} alt={projectTitle} />
       </div>
       
       {/* <div className="h-36">
