@@ -29,8 +29,9 @@ const Project = ({ title,deatil,nameOfProject }) => {
           {deatil}
         </p>
       </div>
-      <div className="flex justify-center items-center w-64 h-64">
-        <img className="object-cover" src={`assets/${projectTitle}.jpeg`} alt={projectTitle} />
+      <div className="flex justify-center items-center w-64 h-44">
+        {/* <img className="object-cover" src={`assets/${projectTitle}.jpeg`} alt={projectTitle} /> */}
+        <img src={`assets/${projectTitle}.jpeg`} alt={projectTitle}  style={{ width: "100%", height: "100%", objectFit: "cover" ,position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)"}}/>
       </div>
       
       {/* <div className="h-36">
